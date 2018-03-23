@@ -1,0 +1,18 @@
+<p>
+    members works!
+</p>
+<!---
+<p *ngIf="isTrue; else firsTemp">Hello</p>
+<p *ngIf="myName =! 'kasse' && false">True</p>
+-->
+<h3>{{ser}}</h3>
+<p *ngIf="isTrue; then firsTemp else secondTemp">Hello</p>
+<ng-template #firsTemp>This is first Template</ng-template>
+<ng-template #secondTemp>This is Second Template</ng-template>
+
+<p *ngIf="myName == 'akasse'">True</p>
+<p *ngIf="myName != 'akas'">True</p>
+
+<div>
+    <app-nvd3 [options]="options" [data]="data"></app-nvd3>
+</div>

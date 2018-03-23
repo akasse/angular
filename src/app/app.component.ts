@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  donnee = 'test ak';
+
+  auteur = {prenom:'Alioune', nom:'Kasse'};
+  st:string = 'STRING';
 }
